@@ -1,12 +1,12 @@
 const removeFromArray = function(array, ...removed) {
-    ans = []
+    ans = [];
 
     for (ele of array) {
 
-        if (!removed.includes(ele)) ans.push(ele)
+        if (!removed.includes(ele)) ans.push(ele);
     }
 
-    return ans
+    return ans;
 };
 
 // Do not edit below this line
